@@ -1,0 +1,35 @@
+note over browser:
+write new note,
+click save
+end note
+
+note over browser:
+Content-Type header of the request tells the server, 
+that the included data is represented in the JSON format 
+end note
+
+note over browser:
+Event handler creates a new note,
+adds it to the notes list,
+rerenders the note list on the page
+and sends the new note to the server
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over server:
+The included data is represented in the JSON format
+end note
+
+server-->browser: HTML status code 201 created
+
+note over browser:
+{"message":"note created"}
+end note
+
+server-->browser: [{ content: "hello", date: "date: "2019-08-31T13:41:33.156Z" },...]
+
+note over browser:
+browser executes the event handler
+that renders notes to display
+end note
