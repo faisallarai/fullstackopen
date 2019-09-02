@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "id": 2,
+      "name": "Issaka Aziz",
+      "number": "0244000001",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Unaissa Faisal",
+      "number": "0244000002",
+      "active": false
+    },
+    {
+      "name": "joj",
+      "number": "98889",
+      "active": true,
+      "id": 4
+    },
+    {
+      "name": "wrfew",
+      "number": "4",
+      "active": true,
+      "id": 5
+    }
+  ]
+}

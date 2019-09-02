@@ -1,0 +1,27 @@
+{
+  "countries": [
+    {
+      "id": 4,
+      "name": "Mali",
+      "capital": ""
+    },
+    {
+      "id": 5,
+      "name": "Cote Divoire",
+      "capital": "Yamasoukro"
+    },
+    {
+      "id": 6,
+      "name": "Niger",
+      "capital": "Nyamai"
+    },
+    {
+      "id": 9,
+      "name": "Zambia"
+    },
+    {
+      "id": 10,
+      "name": "Zimbabwe"
+    }
+  ]
+}
